@@ -12,8 +12,16 @@
         padding: 0;
         box-sizing: border-box;
       }
-      img {
+      .image-container {
+        display: flex;
+        justify-content: center;
         width: 100%;
+        height: auto;
+        overflow: hidden;
+        text-align: center;
+      }
+      img {
+        width: 1920px;
         height: auto;
         margin: 0;
         padding: 0;
@@ -21,6 +29,8 @@
     </style>
   </head>
   <body>
-    <img src="Desktop.png" />
+    <div class="image-container">
+      <img src="Desktop.png" />
+    </div>
   </body>
 </html>
